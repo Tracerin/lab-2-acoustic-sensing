@@ -11,3 +11,8 @@ link: https://youtu.be/nutYQACKp-U?si=_Bxgp_MH-suzfpxs
 - Double tap works off of a delay that once a Tap is read, it will wait to register the Tap until our Double Tap delay is up. If there is a second tap read during this time, it will instead be read as a Double Tap.
 - Additionally includes logic for debounce time so multiple actions aren't registered from one attempted user input.
 - Uses CGEvent API to send events via ctypes to register mac functions.
+
+---
+ADAPTED FROM Michael Rivera: inventsys-2026f/py-apps/acoustics/capture_microphone_fft_bins.py
+
+AI USAGE DISCLOSURE: AI was used to generate parts of the code, mostly around the FFT logic
